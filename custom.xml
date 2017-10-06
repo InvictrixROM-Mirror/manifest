@@ -12,6 +12,10 @@
            fetch="https://github.com/InvictusRom"
            revision="8.0" />
 
+  <remote  name="devices"
+           fetch="https://github.com/InvictusRom-devices"
+           revision="8.0" />
+
   <default remote="inv"
            sync-f="true"
            sync-c="true"
