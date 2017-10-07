@@ -37,6 +37,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/base" name="frameworks_base" />
+  <project path="packages/apps/Armory" name="packages_apps_Armory" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="system/core" name="system_core" />
   <project path="vendor/invictus" name="vendor_invictus" />
