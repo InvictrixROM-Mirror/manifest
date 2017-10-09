@@ -41,7 +41,10 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="system/core" name="system_core" />
-  <project path="vendor/invictus" name="vendor_invictus" />
+  <project path="vendor/invictus" name="vendor_invictus" >
+    <linkfile src="config" dest="vendor/gzosp/config" />
+  </project>
+
   <!-- End Invictus -->
 
   <!-- Start GZOSP -->
@@ -86,6 +89,5 @@
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="gzosp" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
-  <project path="vendor/gzosp" name="vendor_gzosp" remote="gzosp" />
   <!-- End GZOSP -->
 </manifest>
