@@ -43,6 +43,15 @@
   <project path="system/core" name="system_core" />
   <project path="vendor/invictus" name="vendor_invictus" >
     <linkfile src="config" dest="vendor/gzosp/config" />
+    <linkfile src="config/common.mk" dest="vendor/lineage/config/common.mk" />
+    <linkfile src="config/common.mk" dest="vendor/lineage/config/common_full.mk" />
+    <linkfile src="config/common.mk" dest="vendor/lineage/config/common_full_tv.mk" />
+    <linkfile src="config/common_full_phone.mk" dest="vendor/lineage/config/common_full_phone.mk" />
+    <linkfile src="config/common_full_tablet_wifionly.mk" dest="vendor/lineage/config/common_full_tablet_wifionly.mk" />
+    <linkfile src="config/common.mk" dest="vendor/lineage/config/common_mini.mk" />
+    <linkfile src="config/common.mk" dest="vendor/lineage/config/common_mini_tv.mk" />
+    <linkfile src="config/common_full_phone.mk" dest="vendor/lineage/config/common_mini_phone.mk" />
+    <linkfile src="config/common_full_tablet_wifionly.mk" dest="vendor/lineage/config/common_mini_tablet_wifionly.mk" />
   </project>
 
   <!-- End Invictus -->
