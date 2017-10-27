@@ -8,6 +8,10 @@
            fetch="https://github.com/GZOSP"
            revision="8.0" />
 
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-15.0" />
+
   <remote  name="inv"
            fetch="https://github.com/InvictusRom"
            revision="8.0" />
@@ -20,6 +24,10 @@
            sync-f="true"
            sync-c="true"
            sync-j="8" />
+
+  <!-- Start Lineage -->
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="laos" />
+  <!--  End Lineage  -->
 
   <!-- Start Invictus -->
   <project path="manifest" name="manifest" />
