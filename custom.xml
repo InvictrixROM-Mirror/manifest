@@ -41,6 +41,7 @@
 
   <!-- Start Invictus -->
   <project path="manifest" name="manifest" />
+  <project path="bionic" name="bionic" />
   <project path="build/make" name="build_make" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -79,7 +80,6 @@
 
   <!-- Start GZOSP -->
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="gzosp" />
-  <project path="bionic" name="bionic" groups="pdk" remote="gzosp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="gzosp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="gzosp" />
