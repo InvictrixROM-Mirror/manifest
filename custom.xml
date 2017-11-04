@@ -55,13 +55,12 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/base" name="InvictusRom/frameworks_base" remote="github" revision="8.0"/>
-  <project path="packages/services/ThemeInterfacer" name="interfacer" revision="n-rootless" />
+  <project path="frameworks/base" name="frameworks_base" />
   <project path="packages/apps/Armory" name="packages_apps_Armory" />
-  <!-- <project path="hardware/qcom/camera" name="hardware_qcom_camera" /> -->
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" />
+  <project path="packages/services/ThemeInterfacer" name="interfacer" revision="n-rootless" />
   <project path="system/core" name="system_core" />
   <project path="system/sepolicy" name="system_sepolicy" />
   <project path="vendor/invictus" name="vendor_invictus" >
