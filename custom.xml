@@ -60,6 +60,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" />
   <project path="packages/apps/SnapdragonGallery" name="packages_apps_SnapdragonGallery" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" />
   <project path="packages/services/ThemeInterfacer" name="interfacer" revision="n-rootless" />
   <project path="system/core" name="system_core" />
   <project path="system/sepolicy" name="system_sepolicy" />
