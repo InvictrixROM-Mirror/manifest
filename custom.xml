@@ -18,7 +18,7 @@
 
   <remote  name="inv"
            fetch="https://github.com/InvictusRom"
-           revision="8.0" />
+           revision="refs/tags/Alpha-v1.0" />
 
   <remote  name="devices"
            fetch="https://github.com/InvictusRom-devices"
@@ -48,7 +48,7 @@
   <!--  End DU  -->
 
   <!-- Start Invictus -->
-  <project path="manifest" name="manifest" />
+  <project path="manifest" name="manifest" remote="inv" revision="8.0_Alpha-v1.0" />
   <project path="bionic" name="bionic" />
   <project path="build/make" name="build_make" >
     <copyfile src="core/root.mk" dest="Makefile" />
