@@ -13,10 +13,10 @@
             fetch="https://github.com/DirtyUnicorns"
             revision="o8x" 
 
-<!-- Start DU -->  
+    <!-- Start DU -->  
     <project path="external/DUtils" name="android_external_DUtils" remote="du" />
     <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="du" />
-<!--  End DU  -->        
+    <!--  End DU  -->        
     
     <project path="bionic" name="bionic" remote="invictrix" />
     <project path="bootable/recovery" name="bootable_recovery" remote="invictrix" />
