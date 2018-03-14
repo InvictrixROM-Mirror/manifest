@@ -46,7 +46,6 @@
 	<project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" remote="lineage" />
 
 	<project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
-	<project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" groups="qcom,pdk" remote="invictrix" />
 	<project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="aospa" />
 	<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" />
 
