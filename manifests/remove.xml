@@ -97,11 +97,15 @@
 	<remove-project name="platform/system/connectivity/wificond" />
 	<remove-project name="platform/system/core" />
 	<remove-project name="platform/system/extras" />
+	<remove-project name="platform/system/libhidl" />
 	<remove-project name="platform/system/media" />
 	<remove-project name="platform/system/netd" />
+	<remove-project name="platform/system/nfc" />
 	<remove-project name="platform/system/sepolicy" />
 	<remove-project name="platform/system/tools/hidl" />
+	<remove-project name="platform/system/update_engine" />
 	<remove-project name="platform/system/vold" />
+	<remove-project name="platform/tools/apksig" />
 	<remove-project name="platform/vendor/qcom/cobalt"/>
 	<remove-project name="platform/vendor/qcom/falcon_32"/>
 	<remove-project name="platform/vendor/qcom/falcon_64"/>
