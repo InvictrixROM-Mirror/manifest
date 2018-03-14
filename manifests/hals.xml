@@ -1,12 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+	<remote name="carbon"
+		fetch="https://github.com/CarbonROM/"
+		revision="cr-6.1" />
+
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS/"
+		revision="lineage-15.1" />
+	
+	<project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="carbon" />
+	<project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8084" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8916" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8960" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8974" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8994" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" remote="lineage" />
+	<project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8998" remote="lineage" />
+	<project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.1-caf" remote="lineage" />
+	<project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8084" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8952" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8960" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8974" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8994" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8996" remote="lineage" />
+	<project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8998" remote="lineage" />
+	<project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="lineage" />
+	<project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8084" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8916" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8952" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8960" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8974" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8994" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" remote="lineage" />
+	<project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8998" remote="lineage" />
+	<project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" revision="lineage-15.1" remote="lineage" />
+	<project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="o-mr1-caf" remote="invictrix" />
+	<project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="lineage-15.1-caf" remote="lineage" />
+
+	<project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk" remote="carbon" />
+	<project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="carbon" />
+	<project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" groups="qcom,pdk" remote="invictrix" />
+	<project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="carbon" />
+	<project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="aospa" />
+	<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="carbon" />
+
 	<project path="device/qcom/common" name="android_device_qcom_common" remote="aospa" groups="aospa" />
 	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="aospa" groups="aospa" />
 	<project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="invictrix" />
-	<project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="aospa" groups="aospa" />
 	<project path="hardware/ril" name="hardware_ril" remote="invictrix" />
-	<project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="aospa" groups="aospa" />
 	<project path="vendor/qcom/sdclang-3.9/linux-x86" name="proprietary_vendor_qcom_sdclang-3.9_linux-x86" remote="aospa-blobs"/>
 	<project path="vendor/qcom/sdclang-4.0/linux-x86" name="proprietary_vendor_qcom_sdclang-4.0_linux-x86" remote="aospa-blobs"/>
 
