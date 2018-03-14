@@ -630,6 +630,7 @@
 	<include name="manifests/remove.xml"/>
 
 	<include name="manifests/aospa.xml"/>
+	<include name="manifests/hals.xml"/>
 	<include name="manifests/invictrix.xml"/>
 
 </manifest>
