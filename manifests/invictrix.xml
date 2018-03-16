@@ -53,6 +53,7 @@
 	<project path="system/keymaster" name="system_keymaster" remote="invictrix" />
 	<project path="system/libhidl" name="system_libhidl" remote="invictrix" />
 	<project path="system/media" name="system_media" remote="invictrix" />
+	<project path="system/netd" name="system_netd" remote="invictrix" />
 	<project path="system/nfc" name="system_nfc" remote="invictrix" />
 	<project path="system/sepolicy" name="system_sepolicy" remote="invictrix" />
 	<project path="system/update_engine" name="system_update_engine" remote="invictrix" />
